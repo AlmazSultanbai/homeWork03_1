@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         
         
         if enterNumberTF.text?.isEmpty ?? true {
-            enterNumberTF.placeholder = "Fill the field right"
+            enterNumberTF.placeholder = "Fill the Field Right and Check"
             enterNumberTF.layer.borderColor = UIColor.red.cgColor
             enterNumberTF.layer.borderWidth = 2
         } else {
